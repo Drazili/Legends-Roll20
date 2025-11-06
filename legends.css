@@ -89,8 +89,19 @@ label.label {
     text-align: left;
 }
 
+.logo {
+    max-height: 13.5em;
+
+}
+
+img.logo {
+    display: block;
+    margin: auto;
+}
+
 .label input[type="radio"]:checked + span{
-    background-color: #5a0c4d;
+    background-color: #6f319c;
+    color: #f6b91e;
 }
 
 .tinyInput, input[type=number].tinyInput {
@@ -119,6 +130,10 @@ label.label {
 
 .dividerLeft {
     border-left: 1px solid black;
+}
+
+input {
+    accent-color: #6f319c;
 }
 
 select {
