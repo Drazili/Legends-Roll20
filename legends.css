@@ -1,7 +1,12 @@
 div.mainsheet {
     display: grid;
     grid-template-columns: repeat(5, auto);
-    grid-gap: 10px;    
+    grid-gap: 10px;
+    background-image: url(https://raw.githubusercontent.com/Drazili/Legends-Roll20/refs/heads/main/Legends%20background.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-size: contain;
 }
 
 div.twoFifths {
